@@ -8,10 +8,10 @@ function Comment() {
   useEffect(() => {
     const getAllComments = async () => {
       try {
-        const response = await fetch("https://dummyjson.com/comments?limit=5");
+        const response = await fetch("http://localhost:3000/comments");
         const data = await response.json();
 
-        setComments(data.comments);
+        setComments(data);
       } catch (error) {
         console.log(error);
       }

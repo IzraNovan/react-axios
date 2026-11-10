@@ -1,6 +1,11 @@
 interface Comment {
   id: number;
-  comment: string;
+  body: string;
+  likes: number;
+  user: {
+    id: number;
+    username: string;
+  };
 }
 
 interface CommentListProps {
@@ -15,8 +20,13 @@ function CommentList({ comments }: CommentListProps) {
       <main className="flex flex-col gap-4">
         {comments.map((comment) => {
           return (
-            <div key={comment.id} className="border p-2 rounded-lg ">
+            <div key={comment.id} className="border p-2 rounded-lg w-80">
               <p className="italic">"{comment.body}"</p>
+
+              <div className="flex justify-between text-sm border-t m-1 pt-2">
+                <p>- {comment.user.username}</p>
+                <p>{comment.likes} Menyukai</p>
+              </div>
             </div>
           );
         })}

@@ -2,28 +2,19 @@
   "comments": [
     {
       "id": "1",
-      "comment": "Hai"
+      "body": "Ini data pertama",
+      "likes": 6,
+      "user": {
+        "username": "Budi"
+      }
     },
     {
       "id": "2",
-      "comment": "Ini baru ditambah manual"
-    },
-    {
-      "comment": "Ini baru di tambah lewat fetch",
-      "id": "fTvh_7kC2Q0"
-    },
-    {
-      "comment": "Ini baru di tambah lewat fetch",
-      "id": "_BuzUbs-AOw"
-    },
-    {
-      "comment": "Ini baru di tambah lewat fetch",
-      "id": "arv6Pt8zblU"
-    },
-    {
-      "comment": "Ini baru di tambah lewat fetch",
-      "id": "j_LMYGewp9w"
+      "body": "Ini data Kedua",
+      "likes": 10,
+      "user": {
+        "username": "Andi"
+      }
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
