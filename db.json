@@ -9,12 +9,13 @@
       }
     },
     {
-      "id": "2",
-      "body": "Ini data Kedua",
-      "likes": 10,
+      "body": "Ini data kedua",
+      "likes": 0,
       "user": {
-        "username": "Andi"
-      }
+        "username": "Izra"
+      },
+      "id": "SVlREs63GBY"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
