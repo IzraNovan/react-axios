@@ -9,12 +9,20 @@
       }
     },
     {
-      "body": "Ini data kedua",
+      "body": "Ini data kedua tanpa refresh",
       "likes": 0,
       "user": {
         "username": "Izra"
       },
-      "id": "SVlREs63GBY"
+      "id": "jHv4ZVAUPKk"
+    },
+    {
+      "body": "Ini data ketiga tanpa refresh",
+      "likes": 0,
+      "user": {
+        "username": "Izra"
+      },
+      "id": "DZ-AKyU4XOQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

@@ -20,11 +20,10 @@ function CommentForm({ setTrigger }: CommentFormProps) {
         },
       });
 
-      setTrigger(true);
+      setTrigger((prev) => !prev);
+      setComment("");
     } catch (error) {
       console.log(error);
-    } finally {
-      setTrigger(false);
     }
   };
 
