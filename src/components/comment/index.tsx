@@ -22,7 +22,7 @@ function Comment() {
 
   return (
     <>
-      <CommentList comments={comments} />
+      <CommentList comments={comments} setTrigger={setTrigger} />
       <CommentForm setTrigger={setTrigger} />
     </>
   );
