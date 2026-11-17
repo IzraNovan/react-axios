@@ -7,6 +7,30 @@
         "username": "Izra"
       },
       "id": "1"
+    },
+    {
+      "body": "CEK",
+      "likes": 0,
+      "user": {
+        "username": "Izra"
+      },
+      "id": "95lPFI8r8UU"
+    },
+    {
+      "body": "INI BARU",
+      "likes": 0,
+      "user": {
+        "username": "Izra"
+      },
+      "id": "VEPBC_wJZY0"
+    },
+    {
+      "body": "dsfnsdlknsdlf",
+      "likes": 0,
+      "user": {
+        "username": "Izra"
+      },
+      "id": "yMiSBzbr2D0"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

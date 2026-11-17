@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import CommentList from "./CommentList";
-import CommentForm from "./CommentForm";
 import { request } from "../../axios";
+import { Button } from "../ui/button";
+import { Link } from "react-router";
 
 function Comment() {
   const [comments, setComments] = useState([]);
@@ -23,7 +24,11 @@ function Comment() {
   return (
     <>
       <CommentList comments={comments} setTrigger={setTrigger} />
-      <CommentForm setTrigger={setTrigger} />
+      {/*<CommentForm setTrigger={setTrigger} />*/}
+
+      <Link to="/create">
+        <Button>Tambah Komentar</Button>
+      </Link>
     </>
   );
 }
